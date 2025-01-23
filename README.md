@@ -36,13 +36,32 @@
   </details>
 </details>
 
+## Existing Medical VLM and Foundation Models
+### CLIP and Variants
 
-## CLIP and Its Variant
+### Text2Image Models
 
-## Text2Image Models
+### Language Modeling
 
-## Language Modeling
-
-### Vision Language Models
+### Trasitional Vision Language Models
 
 ### Vision Large Language Models
+
+### Vision Language Model with Other Modalities
+
+
+## Research Areas
+### Architecture
+### Training
+### Inference Adjustment
+### Combination
+
+## Tasks, Datasets and Metrics
+### Report Generation
+### VQA
+### Captioning
+### Diagnosis
+### Img-txt Retrieval
+### Embedding Extractor
+
+## Challenges and Future Direction
