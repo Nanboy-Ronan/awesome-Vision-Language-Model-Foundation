@@ -38,6 +38,16 @@
 
 ## Existing Medical VLM and Foundation Models
 ### CLIP and Variants
+<details>
+<summary>MedCLIP: Contrastive Learning from Unpaired Medical Images and Text (2022)</summary>
+
+- MedCLIP: Contrastive Learning from Unpaired Medical Images and Text. [[paper]](https://arxiv.org/abs/2210.10163)
+  - Zifeng Wang, Zhenbang Wu, Dinesh Agarwal, Jimeng Sun.
+  - Key Words: Medical AI; Contrastive Learning; Unpaired Data; Vision-Language Models; Self-Supervised Learning.
+  - <details><summary>Digest</summary>
+    This paper introduces **MedCLIP**, a framework designed to overcome the limitations of existing vision-text contrastive learning models like CLIP when applied to the medical domain. Traditional models rely on large-scale paired image-text datasets, which are scarce in medicine. MedCLIP addresses this by decoupling images and texts for multimodal contrastive learning, allowing the use of unpaired data and significantly expanding the training dataset. Additionally, it replaces the standard InfoNCE loss with a semantic matching loss based on medical knowledge to eliminate false negatives in contrastive learning. The framework demonstrates superior performance in zero-shot prediction, supervised classification, and image-text retrieval tasks, outperforming state-of-the-art methods even with a smaller pretraining dataset. :contentReference[oaicite:0]{index=0}
+  </details>
+</details>
 
 ### Text2Image Models
 
