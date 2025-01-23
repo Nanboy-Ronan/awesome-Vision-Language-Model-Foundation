@@ -100,7 +100,7 @@
 
 - A Dataset of Clinically Generated Visual Questions and Answers About Radiology Images. [[paper]](https://www.nature.com/articles/sdata2018251)
   - Jason J. Lau, Soumya Gayen, Asma Ben Abacha, Dina Demner-Fushman.
-  - Key Words: Medical Imaging; Visual Question Answering; Radiology; Dataset; Natural Language Processing.
+  - Modality: CT, x-ray, T2 weighted MRI.
   - <details><summary>Digest</summary>
     This paper introduces a dataset comprising 15,292 clinically generated visual questions and answers (VQA) related to radiology images. The dataset includes a variety of question types, such as modality, plane, abnormality, and attribute, each associated with corresponding radiology images and expert-provided answers. This resource aims to facilitate the development and evaluation of VQA systems in the medical domain, promoting advancements in automated image interpretation and clinical decision support.
   </details>
