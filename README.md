@@ -44,6 +44,7 @@
 - MedCLIP: Contrastive Learning from Unpaired Medical Images and Text. [[paper]](https://arxiv.org/abs/2210.10163)
   - Zifeng Wang, Zhenbang Wu, Dinesh Agarwal, Jimeng Sun.
   - Key Words: Medical AI; Contrastive Learning; Unpaired Data; Vision-Language Models; Self-Supervised Learning.
+  - Modality: Chest Xray
   - <details><summary>Digest</summary>
     This paper introduces **MedCLIP**, a framework designed to overcome the limitations of existing vision-text contrastive learning models like CLIP when applied to the medical domain. Traditional models rely on large-scale paired image-text datasets, which are scarce in medicine. MedCLIP addresses this by decoupling images and texts for multimodal contrastive learning, allowing the use of unpaired data and significantly expanding the training dataset. Additionally, it replaces the standard InfoNCE loss with a semantic matching loss based on medical knowledge to eliminate false negatives in contrastive learning. The framework demonstrates superior performance in zero-shot prediction, supervised classification, and image-text retrieval tasks, outperforming state-of-the-art methods even with a smaller pretraining dataset. :contentReference[oaicite:0]{index=0}
   </details>
@@ -65,6 +66,20 @@
 ### Training
 ### Inference Adjustment
 ### Combination
+### Trustworthiness
+#### Fairness
+<details>
+<summary>Fair Text to Medical Image Diffusion Model with Subgroup Distribution Aligned Tuning (2024)</summary>
+
+- Fair Text to Medical Image Diffusion Model with Subgroup Distribution Aligned Tuning. [[paper]](https://arxiv.org/abs/2406.14847)
+  - Xu Han, Fangfang Fan, Jingzhao Rong, Zhen Li, Georges El Fakhri, Qingyu Chen, Xiaofeng Liu.
+  - Key Words: Text-to-Image Generation; Medical Imaging; Diffusion Models; Bias Mitigation; Subgroup Distribution Alignment.
+  - <details><summary>Digest</summary>
+    This study addresses biases in text-to-medical image (T2MedI) generation models, particularly concerning underrepresented subgroups in training datasets. The authors develop a T2MedI model based on the pre-trained Imagen framework, fine-tuning it with medical images from the Radiology Objects in Context (ROCO) dataset. They identify gender bias in the generated images and propose a Subgroup Distribution Aligned Tuning (SDAT) method to mitigate this issue. SDAT fine-tunes the model to align the distribution of sensitive subgroups in generated images with those in a target dataset, guided by a sensitivity-subgroup classifier and maintained through a CLIP-consistency regularization term. Evaluation using the BraTS18 dataset demonstrates that SDAT effectively reduces gender representation inconsistencies in generated brain MR images, aligning them more closely with the target dataset's distribution. :contentReference[oaicite:0]{index=0}
+  </details>
+</details>
+#### Privacy
+#### Security
 
 ## Tasks, Datasets and Metrics
 ### Report Generation
