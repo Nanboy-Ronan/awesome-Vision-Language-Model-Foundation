@@ -12,6 +12,16 @@
 ## Table of Contents
 
 ## Survey
+<details>
+<summary>Survey: 2024</summary>
+
+- Medical Vision Language Pretraining: A Survey. [[paper]](https://arxiv.org/abs/2312.06224)
+  - Patrick Mineault, Niccolò Zanichelli, Joanne Zichen Peng, Anton Arkhipov, Eli Bingham, Julian Jara-Ettinger, Emily Mackevicius, Adam Marblestone, Marcelo Mattar, Andrew Payne, Sophia Sanborn, Karen Schroeder, Zenna Tavares, Andreas Tolias.
+  - Key Words: Medical AI; Vision-Language Models; Pretraining; Multimodal Learning; Representation Learning.
+  - <details><summary>Digest</summary> 
+    This survey provides a comprehensive overview of medical vision-language pretraining (MedVLP), an emerging field in AI that integrates vision and language understanding for medical applications. The authors examine various MedVLP architectures, training objectives, and datasets, highlighting their effectiveness in downstream clinical and biomedical tasks. The paper discusses challenges such as data scarcity, bias, and model interpretability while proposing future research directions, including better multimodal fusion strategies, improved benchmark datasets, and robust evaluation frameworks.
+  </details>
+</details>
 
 ## CLIP and Its Variant
 
