@@ -12,16 +12,30 @@
 ## Table of Contents
 
 ## Survey
+
 <details>
 <summary>Survey: 2024</summary>
 
-- Medical Vision Language Pretraining: A Survey. [[paper]](https://arxiv.org/abs/2312.06224)
-  - Patrick Mineault, Niccolò Zanichelli, Joanne Zichen Peng, Anton Arkhipov, Eli Bingham, Julian Jara-Ettinger, Emily Mackevicius, Adam Marblestone, Marcelo Mattar, Andrew Payne, Sophia Sanborn, Karen Schroeder, Zenna Tavares, Andreas Tolias.
-  - Key Words: Medical AI; Vision-Language Models; Pretraining; Multimodal Learning; Representation Learning.
-  - <details><summary>Digest</summary> 
-    This survey provides a comprehensive overview of medical vision-language pretraining (MedVLP), an emerging field in AI that integrates vision and language understanding for medical applications. The authors examine various MedVLP architectures, training objectives, and datasets, highlighting their effectiveness in downstream clinical and biomedical tasks. The paper discusses challenges such as data scarcity, bias, and model interpretability while proposing future research directions, including better multimodal fusion strategies, improved benchmark datasets, and robust evaluation frameworks.
+- Vision-Language Models for Medical Report Generation and Visual Question Answering: A Review. [[paper]](https://arxiv.org/abs/2403.02469)
+  - Iryna Hartsock, Ghulam Rasool.
+  - Key Words: Medical AI; Vision-Language Models; Medical Report Generation; Visual Question Answering; Multimodal Learning.
+  - <details><summary>Digest</summary>
+    This review examines recent advancements in medical vision-language models (VLMs) that integrate computer vision and natural language processing to analyze visual and textual medical data. The authors focus on models designed for medical report generation and visual question answering (VQA), providing background on NLP and CV integration techniques. Key areas discussed include medical vision-language datasets, architectures, pre-training strategies, and evaluation metrics. The paper also highlights current challenges, such as enhancing clinical validity and addressing patient privacy concerns, and proposes future research directions to improve healthcare applications.
   </details>
 </details>
+
+
+<details>
+<summary>Survey: 2023</summary>
+
+- Medical Vision Language Pretraining: A Survey. [[paper]](https://arxiv.org/abs/2312.06224)
+  - Prashant Shrestha, Sanskar Amgain, Bidur Khanal, Cristian A. Linte, Binod Bhattarai.
+  - Key Words: Medical Vision-Language Pretraining; Self-Supervised Learning; Multimodal Learning; Medical Imaging; Natural Language Processing.
+  - <details><summary>Digest</summary>
+    This survey delves into the emerging field of Medical Vision Language Pretraining (VLP), which addresses the scarcity of labeled data in the medical domain by leveraging both visual and textual data through self-supervised learning. The authors review existing works, categorizing them based on pretraining objectives, architectures, evaluation tasks, and datasets used. They discuss current challenges in medical VLP, such as data scarcity, model interpretability, and the need for standardized evaluation metrics. The paper concludes by highlighting future directions, emphasizing the importance of developing more robust models and exploring diverse medical datasets to enhance the applicability of VLP in healthcare.
+  </details>
+</details>
+
 
 ## CLIP and Its Variant
 
