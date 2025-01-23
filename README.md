@@ -107,6 +107,18 @@
 </details>
 
 ### Captioning
+<details>
+<summary>BIOMEDICA: An Open Biomedical Image-Caption Archive, Dataset, and Vision-Language Models Derived from Scientific Literature (2025)</summary>
+
+- BIOMEDICA: An Open Biomedical Image-Caption Archive, Dataset, and Vision-Language Models Derived from Scientific Literature. [[paper]](https://arxiv.org/abs/2501.07171)
+  - Alejandro Lozano, Min Woo Sun, James Burgess, Liangyu Chen, Jeffrey J. Nirschl, Jeffrey Gu, Ivan Lopez, Josiah Aklilu, Austin Wolfgang Katzer, Collin Chiu, Anita Rau, Xiaohan Wang, Yuhui Zhang, Alfred Seunghoon Song, Robert Tibshirani, Serena Yeung-Levy.
+  - Modality: pathology, MRI, Chest Xray, Dermatoscope, BreastUltrasound, Fluresence Microscopy, Electron Microscopy, Light Microscopy, Microscopy, Laparoscopic Surgery.
+  - <details><summary>Digest</summary>
+    This paper introduces **BIOMEDICA**, a comprehensive, open-source framework designed to extract, annotate, and serialize the entire PubMed Central Open Access subset into an accessible dataset. The resulting archive comprises over 24 million unique image-text pairs from more than 6 million articles, encompassing a wide range of biomedical knowledge. The authors also present **BMCA-CLIP**, a suite of CLIP-style models pre-trained on the BIOMEDICA dataset via streaming, eliminating the need for extensive local storage. These models demonstrate state-of-the-art performance across 40 tasks in various biomedical fields, including pathology, radiology, ophthalmology, dermatology, and more, excelling in zero-shot classification and image-text retrieval tasks. The BIOMEDICA framework and models aim to advance research in biomedical vision-language applications by providing a diverse and extensive dataset for training and evaluation.
+  </details>
+</details>
+
+
 ### Diagnosis
 ### Img-txt Retrieval
 ### Embedding Extractor
