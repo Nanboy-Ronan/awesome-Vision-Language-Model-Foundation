@@ -83,6 +83,17 @@
 
 ## Tasks, Datasets and Metrics
 ### Report Generation
+<details>
+<summary>MIMIC-CXR: A De-identified Publicly Available Database of Chest Radiographs with Free-Text Reports (2019)</summary>
+
+- MIMIC-CXR: A De-identified Publicly Available Database of Chest Radiographs with Free-Text Reports. [[paper]](https://www.nature.com/articles/s41597-019-0322-0)
+  - Alistair E. W. Johnson, Tom J. Pollard, Seth J. Berkowitz, Nathaniel B. Greenbaum, Matthew P. Lungren, Chih-ying Deng, Roger G. Mark, Steven Horng.
+  - Modality: Chest Radiographs
+  - <details><summary>Digest</summary>
+    This paper introduces **MIMIC-CXR**, a large-scale, de-identified dataset comprising 377,110 chest X-ray images associated with 227,827 imaging studies from 64,588 patients at the Beth Israel Deaconess Medical Center between 2011 and 2016. Each study includes free-text radiology reports, providing a rich resource for developing, evaluating, and comparing machine learning algorithms in medical imaging. The dataset is part of the MIMIC family and is freely accessible, promoting advancements in automated image interpretation and facilitating reproducible research in the medical imaging community.
+  </details>
+</details>
+
 ### VQA
 ### Captioning
 ### Diagnosis
