@@ -98,12 +98,24 @@
 
 - PMC-CLIP: Contrastive Language-Image Pre-training using Biomedical Documents. [[paper]](https://arxiv.org/abs/2303.07240)
   - Weixiong Lin, Ziheng Zhao, Xiaoman Zhang, Chaoyi Wu, Ya Zhang, Yanfeng Wang, Weidi Xie.
-  - - Modality: Colon Pathology, Dermatoscope, Retinal OCT, CT, MRI, X-ray.
+  - Modality: Colon Pathology, Dermatoscope, Retinal OCT, CT, MRI, X-ray.
   - Datasets: ROCO, MedICaT, MIMIC-CXR
   - <details><summary>Digest</summary>
     This paper introduces **PMC-CLIP**, a vision-language model pretrained on **PMC-OA**, a biomedical dataset comprising 1.6 million image-caption pairs extracted from PubMed Central's Open Access subset. PMC-OA encompasses diverse medical modalities and diseases, with fine-grained alignments between subfigures and subcaptions. PMC-CLIP employs contrastive learning to align visual and textual representations, achieving state-of-the-art performance across various downstream tasks, including image-text retrieval on ROCO, MedMNIST image classification, and medical visual question answering (VQA). Notably, it improves R@10 by 8.1% in image-text retrieval and accuracy by 3.9% in image classification compared to previous methods. The study highlights the potential of large-scale, domain-specific pretraining in advancing biomedical AI applications.
   </details>
 </details>
+
+<details>
+<summary>Developing Generalist Foundation Models from a Multimodal Dataset for 3D Computed Tomography (2024)</summary>
+- Developing Generalist Foundation Models from a Multimodal Dataset for 3D Computed Tomography. [[paper]](https://arxiv.org/abs/2403.17834)
+  - Ibrahim Ethem Hamamci, Sezgin Er, Furkan Almas, Ayse Gulnihan Simsek, Sevval Nil Esirgun, Irem Dogan, Muhammed Furkan Dasdelen, Omer Faruk Durugol, Bastian Wittmann, Tamaz Amiranashvili, Enis Simsar, Mehmet Simsar, Emine Bensu Erdemir, Abdullah Alanbay, Anjany Sekuboyina, Berkan Lafci, Christian Bluethgen, Mehmet Kemal Ozdemir, Bjoern Menze.
+  - Modality: Chest CT.
+  - Datasets: CT-RATE
+  - <details><summary>Digest</summary>
+    This study introduces **CT-RATE**, the first dataset pairing 3D chest CT scans with corresponding radiology reports, comprising 25,692 non-contrast 3D chest CT scans from 21,304 unique patients, expanded to 50,188 volumes through various reconstructions. Leveraging this dataset, the authors develop **CT-CLIP**, a contrastive language-image pretraining framework designed for broad applications without the need for task-specific training. CT-CLIP outperforms state-of-the-art fully supervised models in multi-abnormality detection and efficiently retrieves relevant cases using image or textual queries. Additionally, by combining CT-CLIP's vision encoder with a pretrained large language model, the authors create **CT-CHAT**, a vision-language foundational chat model for 3D chest CT volumes, fine-tuned on over 2.7 million question-answer pairs derived from the CT-RATE dataset. CT-CHAT surpasses other multimodal AI assistants, underscoring the necessity for specialized methods in 3D medical imaging. The open-source release of CT-RATE, CT-CLIP, and CT-CHAT aims to address critical challenges in 3D medical imaging and lay the groundwork for future innovations in medical AI and improved patient care.
+  </details>
+</details>
+
 
 
 
