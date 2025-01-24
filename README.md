@@ -1,4 +1,4 @@
-# Awesome Vision Language Model and Foundation Models
+# Awesome Medical Vision Language Model and Foundation Models
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-YES-green.svg)](https://github.com/Nanboy-Ronan/awesome-Vision-Language-Model-Foundation/graphs/commit-activity)
 ![PR Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
