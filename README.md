@@ -166,6 +166,18 @@
   </details>
 </details>
 
+<details>
+<summary>A Foundational Multimodal Vision Language AI Assistant for Human Pathology (2023)</summary>
+
+- A Foundational Multimodal Vision Language AI Assistant for Human Pathology. [[paper]](https://arxiv.org/abs/2312.07814)
+  - Ming Y. Lu, Bowen Chen, Drew F. K. Williamson, Richard J. Chen, Kenji Ikamura, Georg Gerber, Ivy Liang, Long Phi Le, Tong Ding, Anil V. Parwani, Faisal Mahmood.
+  - Dataset: 
+  - Modality:
+  - <details><summary>Digest</summary>
+    This paper introduces **PathChat**, a vision-language AI assistant designed for human pathology. The model's vision encoder is pretrained on 100 million histology images and 1.18 million pathology image-caption pairs. It is then integrated with a pretrained large language model and fine-tuned on over 250,000 diverse visual language instructions. In evaluations, PathChat achieved a diagnostic accuracy of 87% on multiple-choice questions across various tissue types and diseases when provided with relevant clinical context. Expert assessments indicated that PathChat's responses were more accurate and preferable compared to other multimodal AI assistants, including GPT-4V. The study suggests that PathChat has potential applications in pathology education, research, and clinical decision-making.
+  </details>
+</details>
+
 
 
 
