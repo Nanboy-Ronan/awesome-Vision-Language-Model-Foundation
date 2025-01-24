@@ -146,11 +146,32 @@
 
 ### Text2Image Models
 
+
+
+
 ### Language Modeling
 
 ### Trasitional Vision Language Models
 
 ### Vision Large Language Models
+<details>
+<summary>LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day (2023)</summary>
+
+- LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day. [[paper]](https://arxiv.org/abs/2306.00890)
+  - Chunyuan Li, Cliff Wong, Sheng Zhang, Naoto Usuyama, Haotian Liu, Jianwei Yang, Tristan Naumann, Hoifung Poon, Jianfeng Gao.
+  - Dataset: PMC-15M.
+  - Modality: Chest Xray, MRI, Histology, Gross Pathology, CT.
+  - <details><summary>Digest</summary>
+    This paper introduces **LLaVA-Med**, a vision-language conversational assistant designed to address open-ended biomedical image-related inquiries. The authors propose a cost-efficient training approach that leverages a large-scale biomedical figure-caption dataset extracted from PubMed Central. They employ GPT-4 to generate instruction-following data from these captions and fine-tune a general-domain vision-language model using a novel curriculum learning method. The training process involves aligning biomedical vocabulary with figure-caption pairs and mastering open-ended conversational semantics through GPT-4-generated data. Remarkably, LLaVA-Med is trained in less than 15 hours using eight A100 GPUs. The model demonstrates excellent multimodal conversational capabilities, outperforming previous supervised state-of-the-art models on certain metrics across three standard biomedical visual question answering datasets. The authors have made the instruction-following data and the LLaVA-Med model publicly available to facilitate further research in biomedical multimodal AI.
+  </details>
+</details>
+
+
+
+
+
+
+
 
 ### Vision Language Model with Other Modalities
 
