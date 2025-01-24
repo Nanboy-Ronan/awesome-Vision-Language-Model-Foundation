@@ -116,6 +116,16 @@
   </details>
 </details>
 
+<details>
+<summary>A Visual–Language Foundation Model for Pathology Image Analysis (2023)</summary>
+- A Visual–Language Foundation Model for Pathology Image Analysis. [[paper]](https://www.nature.com/articles/s41591-023-02504-3)
+  - Authors: [Author names not provided in the available information]
+  - Modality: pathology.
+  - Datasets: OpenPath.
+  - <details><summary>Digest</summary>
+    This study introduces a visual–language foundation model tailored for pathology image analysis. The authors present the **OpenPath** dataset, a comprehensive collection of pathology images and associated textual data, which serves as the basis for training the proposed model. The model, named **PLIP** (Pathology Language–Image Pretraining), leverages this dataset to learn meaningful representations that integrate visual and textual information. The paper details the architecture of PLIP, its training methodology, and its performance across various pathology image analysis tasks. The results demonstrate that PLIP achieves state-of-the-art performance, highlighting the potential of visual–language models in advancing pathology image analysis.
+  </details>
+</details>
 
 
 
