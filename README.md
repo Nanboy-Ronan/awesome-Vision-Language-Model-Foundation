@@ -53,6 +53,7 @@
 
 
 
+
 ## Existing Medical VLM and Foundation Models
 ### CLIP and Variants
 <details>
@@ -92,7 +93,17 @@
   </details>
 </details>
 
+<details>
+<summary>PMC-CLIP: Contrastive Language-Image Pre-training using Biomedical Documents (2023)</summary>
 
+- PMC-CLIP: Contrastive Language-Image Pre-training using Biomedical Documents. [[paper]](https://arxiv.org/abs/2303.07240)
+  - Weixiong Lin, Ziheng Zhao, Xiaoman Zhang, Chaoyi Wu, Ya Zhang, Yanfeng Wang, Weidi Xie.
+  - - Modality: Colon Pathology, Dermatoscope, Retinal OCT, CT, MRI, X-ray.
+  - Datasets: ROCO, MedICaT, MIMIC-CXR
+  - <details><summary>Digest</summary>
+    This paper introduces **PMC-CLIP**, a vision-language model pretrained on **PMC-OA**, a biomedical dataset comprising 1.6 million image-caption pairs extracted from PubMed Central's Open Access subset. PMC-OA encompasses diverse medical modalities and diseases, with fine-grained alignments between subfigures and subcaptions. PMC-CLIP employs contrastive learning to align visual and textual representations, achieving state-of-the-art performance across various downstream tasks, including image-text retrieval on ROCO, MedMNIST image classification, and medical visual question answering (VQA). Notably, it improves R@10 by 8.1% in image-text retrieval and accuracy by 3.9% in image classification compared to previous methods. The study highlights the potential of large-scale, domain-specific pretraining in advancing biomedical AI applications.
+  </details>
+</details>
 
 
 
