@@ -10,7 +10,6 @@
 
 
 ## Table of Contents
-[toc]
 
 
 ## Survey
@@ -38,6 +37,22 @@
   </details>
 </details>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Existing Medical VLM and Foundation Models
 ### CLIP and Variants
 <details>
@@ -45,13 +60,56 @@
 
 - MedCLIP: Contrastive Learning from Unpaired Medical Images and Text. [[paper]](https://arxiv.org/abs/2210.10163)
   - Zifeng Wang, Zhenbang Wu, Dinesh Agarwal, Jimeng Sun.
-  - Key Words: Medical AI; Contrastive Learning; Unpaired Data; Vision-Language Models; Self-Supervised Learning.
   - Modality: Chest Xray
   - Datasets: MIMIC, ChexPert
   - <details><summary>Digest</summary>
     This paper introduces **MedCLIP**, a framework designed to overcome the limitations of existing vision-text contrastive learning models like CLIP when applied to the medical domain. Traditional models rely on large-scale paired image-text datasets, which are scarce in medicine. MedCLIP addresses this by decoupling images and texts for multimodal contrastive learning, allowing the use of unpaired data and significantly expanding the training dataset. Additionally, it replaces the standard InfoNCE loss with a semantic matching loss based on medical knowledge to eliminate false negatives in contrastive learning. The framework demonstrates superior performance in zero-shot prediction, supervised classification, and image-text retrieval tasks, outperforming state-of-the-art methods even with a smaller pretraining dataset. :contentReference[oaicite:0]{index=0}
   </details>
 </details>
+
+<details>
+<summary>PubMedCLIP: How Much Does CLIP Benefit Visual Question Answering in the Medical Domain? (2023)</summary>
+
+- PubMedCLIP: How Much Does CLIP Benefit Visual Question Answering in the Medical Domain? [[paper]](https://aclanthology.org/2023.findings-eacl.88.pdf)
+  - Sedigheh Eslami, Christoph Meinel, Gerard de Melo.
+  - Modality: Chest X-rays, PET scans, CT scans, MRI, angiography
+  - Datasets: the Radiology Objects in COntext (ROCO)
+  - <details><summary>Digest</summary>
+    This study evaluates the effectiveness of Contrastive Language–Image Pre-training (CLIP) in the medical domain by introducing **PubMedCLIP**, a version of CLIP fine-tuned on image–text pairs from PubMed articles. The authors assess PubMedCLIP's performance on two Medical Visual Question Answering (MedVQA) benchmark datasets, demonstrating that it improves overall accuracy by up to 3% compared to state-of-the-art Model-Agnostic Meta-Learning (MAML) networks trained solely on visual data. The findings suggest that incorporating domain-specific textual and visual information enhances the performance of vision–language models in medical applications.
+  </details>
+</details>
+
+
+<details>
+<summary>BiomedCLIP: A Multimodal Biomedical Foundation Model Pretrained from Fifteen Million Scientific Image-Text Pairs (2025)</summary>
+
+- BiomedCLIP: A Multimodal Biomedical Foundation Model Pretrained from Fifteen Million Scientific Image-Text Pairs. [[paper]](https://arxiv.org/abs/2303.00915)
+  - Sheng Zhang, Yanbo Xu, Naoto Usuyama, Hanwen Xu, Jaspreet Bagga, Robert Tinn, Sam Preston, Rajesh Rao, Mu Wei, Naveen Valluri, Cliff Wong, Andrea Tupini, Yu Wang, Matt Mazzola, Swadheen Shukla, Lars Liden, Jianfeng Gao, Angela Crabtree, Brian Piening, Carlo Bifulco, Matthew P. Lungren, Tristan Naumann, Sheng Wang, Hoifung Poon.
+  - Modality: pathology, MRI, Chest Xray, Dermatoscope, BreastUltrasound.
+  - Datasets: PMC-15M
+  - <details><summary>Digest</summary>
+    This paper introduces **BiomedCLIP**, a multimodal biomedical foundation model pretrained on **PMC-15M**, a dataset comprising 15 million biomedical image-text pairs extracted from 4.4 million scientific articles. The authors highlight that PMC-15M is two orders of magnitude larger than existing biomedical multimodal datasets and encompasses a diverse range of biomedical image types. BiomedCLIP incorporates domain-specific adaptations tailored to biomedical vision-language processing. Extensive experiments demonstrate that BiomedCLIP achieves state-of-the-art results across various biomedical imaging tasks, including retrieval, classification, and visual question-answering, outperforming prior approaches. Notably, despite its broad pretraining, BiomedCLIP surpasses radiology-specific models like BioViL in tasks such as RSNA pneumonia detection. The model and dataset are fully open-access, aiming to facilitate future research in multimodal biomedical AI.
+  </details>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Text2Image Models
 
