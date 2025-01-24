@@ -107,7 +107,7 @@
 
 <details>
 <summary>Developing Generalist Foundation Models from a Multimodal Dataset for 3D Computed Tomography (2024)</summary>
-- CT-CLIP: Developing Generalist Foundation Models from a Multimodal Dataset for 3D Computed Tomography. [[paper]](https://arxiv.org/abs/2403.17834)
+- Developing Generalist Foundation Models from a Multimodal Dataset for 3D Computed Tomography. (CT-CLIP) [[paper]](https://arxiv.org/abs/2403.17834)
   - Ibrahim Ethem Hamamci, Sezgin Er, Furkan Almas, Ayse Gulnihan Simsek, Sevval Nil Esirgun, Irem Dogan, Muhammed Furkan Dasdelen, Omer Faruk Durugol, Bastian Wittmann, Tamaz Amiranashvili, Enis Simsar, Mehmet Simsar, Emine Bensu Erdemir, Abdullah Alanbay, Anjany Sekuboyina, Berkan Lafci, Christian Bluethgen, Mehmet Kemal Ozdemir, Bjoern Menze.
   - Modality: Chest CT.
   - Datasets: CT-RATE
@@ -118,7 +118,7 @@
 
 <details>
 <summary>A Visual–Language Foundation Model for Pathology Image Analysis (2023)</summary>
-- PLIP: A Visual–Language Foundation Model for Pathology Image Analysis. [[paper]](https://www.nature.com/articles/s41591-023-02504-3)
+- A Visual–Language Foundation Model for Pathology Image Analysis. (PLIP) [[paper]](https://www.nature.com/articles/s41591-023-02504-3)
   - Authors: [Author names not provided in the available information]
   - Modality: pathology.
   - Datasets: OpenPath.
