@@ -153,6 +153,7 @@
 
 ### Trasitional Vision Language Models
 
+
 ### Vision Large Language Models
 <details>
 <summary>LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day (2023)</summary>
@@ -171,14 +172,25 @@
 
 - A Foundational Multimodal Vision Language AI Assistant for Human Pathology. [[paper]](https://arxiv.org/abs/2312.07814)
   - Ming Y. Lu, Bowen Chen, Drew F. K. Williamson, Richard J. Chen, Kenji Ikamura, Georg Gerber, Ivy Liang, Long Phi Le, Tong Ding, Anil V. Parwani, Faisal Mahmood.
-  - Dataset: 
-  - Modality:
+  - Dataset: PathChat dataset.
+  - Modality: Pathology.
   - <details><summary>Digest</summary>
     This paper introduces **PathChat**, a vision-language AI assistant designed for human pathology. The model's vision encoder is pretrained on 100 million histology images and 1.18 million pathology image-caption pairs. It is then integrated with a pretrained large language model and fine-tuned on over 250,000 diverse visual language instructions. In evaluations, PathChat achieved a diagnostic accuracy of 87% on multiple-choice questions across various tissue types and diseases when provided with relevant clinical context. Expert assessments indicated that PathChat's responses were more accurate and preferable compared to other multimodal AI assistants, including GPT-4V. The study suggests that PathChat has potential applications in pathology education, research, and clinical decision-making.
   </details>
 </details>
 
 
+<details>
+<summary>RaDialog: A Large Vision-Language Model for Radiology Report Generation and Conversational Assistance (2023)</summary>
+
+- RaDialog: A Large Vision-Language Model for Radiology Report Generation and Conversational Assistance. [[paper]](https://arxiv.org/abs/2311.18681)
+  - Chantal Pellegrini, Ege Özsoy, Benjamin Busam, Nassir Navab, Matthias Keicher.
+  - Dataset: MIMIC-CXR.
+  - Modality: Chest Xray.
+  - <details><summary>Digest</summary>
+    This paper introduces **RaDialog**, a vision-language model designed to generate clinically accurate radiology reports and facilitate interactive dialogues based on medical images. RaDialog integrates visual image features and structured pathology findings with a large language model (LLM), adapting it to the radiology domain through parameter-efficient fine-tuning. The authors developed a semi-automatically labeled, image-grounded instruction dataset for chest X-ray tasks to maintain the LLM's conversational abilities. Training with this dataset enables RaDialog to achieve state-of-the-art clinical correctness in report generation and perform interactive tasks such as report correction and question answering, serving as a foundational step toward clinical dialogue systems. The code is publicly available on GitHub.
+  </details>
+</details>
 
 
 
