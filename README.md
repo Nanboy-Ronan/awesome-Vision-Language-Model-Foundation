@@ -193,6 +193,18 @@
 </details>
 
 
+<details>
+<summary>Med-Flamingo: A Multimodal Medical Few-shot Learner (2023)</summary>
+
+- Med-Flamingo: A Multimodal Medical Few-shot Learner. [[paper]](https://arxiv.org/abs/2307.15189)
+  - Michael Moor, Qian Huang, Shirley Wu, Michihiro Yasunaga, Cyril Zakka, Yash Dalmia, Eduardo Pontes Reis, Pranav Rajpurkar, Jure Leskovec.
+  - Dataset: MTB, PMC-OA.
+  - Modality: Neuroscience/Neurology, Obstetrics and Gynecology, Infectious Diseases, Radiology, Dermatology, Family Medicine, Oncology, Immunology, Biomedical Engineering, Surgery, Dentistry/Orthodontics, Anesthesiology, Cardiology, Ophthalmology, Physiology, Psychiatry, Pediatrics, Medical History, Pharmacology, Pathology, Nursing, Herbal Medicine, Anatomy, Otolaryngology, Orthopedics, Gastroenterology, Hematology, Nutrition, Endocrinology, Urology, Internal Medicine, Genetics, Pulmonology, Sports Medicine, Medical Research and Statistics, Emergency Medicine, Cell Biology and Histology, Pain Medicine, Public Health and Epidemiology, Forensics, Biochemistry, Nephrology, Critical Care Medicine, Medical Ethics, Veterinary Medicine, Physical Medicine and Rehabilitation, Health Informatics, Mindfulness.
+  - <details><summary>Digest</summary>
+    This paper introduces **Med-Flamingo**, a multimodal few-shot learner adapted to the medical domain. Building upon the OpenFlamingo-9B model, the authors continue pre-training using paired and interleaved medical image-text data sourced from publications and textbooks. Med-Flamingo is designed to enhance generative medical visual question answering (VQA) capabilities, enabling the model to learn from limited examples in real-time. The model's performance is evaluated across several datasets, including a novel open-ended VQA dataset featuring visual USMLE-style problems. A human evaluation study, involving clinicians reviewing the model's outputs, indicates that Med-Flamingo improves performance in generative medical VQA by up to 20% in clinician ratings. Additionally, it facilitates multimodal medical few-shot adaptations, such as rationale generation. The authors have made the model, code, and evaluation application publicly available.
+  </details>
+</details>
+
 
 
 
