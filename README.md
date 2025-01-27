@@ -129,6 +129,17 @@
 
 
 
+<details>
+<summary>Masked Vision and Language Pre-training with Unimodal and Multimodal Contrastive Losses for Medical Visual Question Answering (2023)</summary>
+
+- Masked Vision and Language Pre-training with Unimodal and Multimodal Contrastive Losses for Medical Visual Question Answering. [[paper]](https://arxiv.org/abs/2307.05314)
+  - Pengfei Li, Gang Liu, Jinlong He, Zixu Zhao, Shenjun Zhong.
+  - Modality: pathology.
+  - Datasets: ROCO, MedICaT, ImageCLEF2022.
+  - <details><summary>Digest</summary>
+    This paper introduces a self-supervised vision-language pre-training approach designed to enhance medical visual question answering (VQA) tasks. The authors propose a model that learns both unimodal and multimodal feature representations from medical image-caption datasets. The pre-training objectives include unimodal and multimodal contrastive losses, masked language modeling, and image-text matching. After pre-training, the model is fine-tuned on downstream medical VQA tasks. The proposed approach achieves state-of-the-art performance on three publicly available medical VQA datasets, with significant accuracy improvements of 2.2%, 14.7%, and 1.7%, respectively. The study also provides a comprehensive analysis of the effectiveness of different components and pre-training settings. The code and models are available at [https://github.com/pengfeiliHEU/MUMC](https://github.com/pengfeiliHEU/MUMC).
+  </details>
+</details>
 
 
 
